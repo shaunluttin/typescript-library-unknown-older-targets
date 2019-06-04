@@ -2,22 +2,12 @@
   "name": "library-ts3.5",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
-  "scripts": {
-    "build": "tsc -p tsconfig.json && tsc -p tsconfig.shims.json"
-  },
+  "main": "index.js",
+  "types": "index.d.ts",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^3.5.1"
-  },
-  "types": "./index.d.ts",
-  "typesVersions": {
-    ">=3.1": {
-      "*": [
-        "3.1/*"
-      ]
-    }
   }
 }
