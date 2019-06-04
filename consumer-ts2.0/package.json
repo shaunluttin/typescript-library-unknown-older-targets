@@ -1,5 +1,5 @@
 {
-  "name": "ts2",
+  "name": "consumer-ts2.0",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +13,6 @@
     "typescript": "^2.0.10"
   },
   "dependencies": {
-    "ts3": "file:../ts3"
+    "library-ts3.5": "file:../library-ts3.5"
   }
 }

@@ -1,6 +1,6 @@
-import ts3 from 'ts3';
+import library from 'library-ts3.5';
 
-const x = ts3();
+const x = library();
 
 // Type 'unknown' is not assignable to type 'number'.
 const y: number = x;

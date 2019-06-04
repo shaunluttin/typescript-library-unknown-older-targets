@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ts3": "file:../ts3",
+    "library-ts3.5": "file:../library-ts3.5",
     "typescript": "^3.5.1"
   }
 }
