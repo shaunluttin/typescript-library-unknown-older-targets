@@ -1,7 +1,4 @@
-declare global {
-    // @ts-ignore
-    export type unknown = any;
-}
+/// <reference path="shim.d.ts" />
 
 /**
  * This is a tiny demo function that returns `unknown`. You're actual module
