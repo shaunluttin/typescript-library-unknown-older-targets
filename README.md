@@ -3,12 +3,12 @@
 
     cd library-ts3.5
     npm install
-    .\node_modules\.bin\tsc
+    npm run build
 
     cd ../consumer-ts2.0
     npm install
-    .\node_modules\.bin\tsc
+    npm run build // Good! There is no error because unknown is an alias for any.
 
     cd ../consumer-ts3.1
     npm install
-    .\node_modules\.bin\tsc // error because unknown is not assignable to number
+    npm run build // Good! There is an error because unknown is not assignable to number.
